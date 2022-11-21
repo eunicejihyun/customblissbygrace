@@ -1,0 +1,164 @@
+/* ROOT FONT ****************************************** */
+:root {
+  font-size: 18px;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+}
+
+@media (max-width: 500px) {
+  :root {
+    font-size: 16px;
+  }
+}
+
+
+@media (min-width: 1300px) {
+  :root {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1500px) {
+  :root {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 1700px) {
+  :root {
+    font-size: 24px;
+  }
+}
+
+/* NAVBAR ****************************************** */
+
+.logo {
+  width: 9rem;
+  padding: 1rem 0 0;
+}
+
+.navbar {
+  padding: 0 1rem 1rem 2rem;
+  background-color: white;
+  font-size: 0.8rem;
+}
+
+/* HERO ****************************************** */
+
+.container-fluid,
+.row {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.col {
+  padding: 0;
+  margin: 0;
+  background-color: #f8f1e8;
+}
+
+.carousel-inner {
+  padding: 0;
+  float: right;
+}
+
+.hero-image {
+  padding: 0;
+  min-width: 250px;
+}
+
+.hero-text {
+  color: black;
+  padding: 0.5rem 2rem;
+  justify-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tagline {
+  font-size: 1.6rem;
+  padding-top: 1rem;
+}
+
+.about {
+  font-size: 1rem;
+  font-weight: 300;
+  padding: 0;
+}
+
+
+
+/* SPECIALTIES SECTION ****************************************** */
+#specialties {
+  padding: 4rem 2rem;
+  background-color: white;
+  text-align: center;
+}
+
+.serif-heading {
+  font-family: "Lora", serif;
+  color: #a18d73;
+  font-size: 3.3rem;
+}
+
+.specialties-subheading {
+  font-weight: bold;
+  font-size: 1.3rem;
+  padding: 2rem 0 1rem;
+}
+
+
+
+/* FOOTER SECTION ****************************************** */
+footer {
+  background-color: #151515;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 300;
+  padding: 2rem 3rem 1rem;
+  line-height: 1.7;
+}
+
+.footer-heading {
+  font-weight: bold;
+  letter-spacing: 7px;
+  padding-bottom: 0.5rem;
+}
+
+li span {
+  display: table-cell;
+  padding-right: 2rem;
+}
+
+li {
+  display: table-row;
+  padding: 0;
+}
+
+#copyright {
+  font-size: 12px;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.footer-divider {
+  padding: 0 1rem;
+}
+
+
+.footer-link {
+  color: white;
+  text-decoration:none;
+}
+
+.media-link {
+  padding-right: 1rem;
+}
+
