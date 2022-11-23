@@ -9,3 +9,8 @@ let dayOfWeek = today.getDay();
 todaysHours = document.getElementById('dow'+dayOfWeek)
 
 todaysHours.style.fontWeight = 500;
+
+// SHOW MESSAGE
+$(document).ready(function(){
+    $("#messageModal").modal('show');
+});

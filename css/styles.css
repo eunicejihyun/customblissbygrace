@@ -162,3 +162,8 @@ li {
   padding-right: 1rem;
 }
 
+
+.modal-image {
+  display: block;
+  width: 100%;
+}
