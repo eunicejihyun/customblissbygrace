@@ -134,38 +134,12 @@
 
   </section>
 
-  <!-- Modal -->
-  <div class="modal fade show" id="messageModal" data-bs-backdrop="static" tabindex="-1"
-    aria-labelledby="messageModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="messageModalLabel">
-            Shop Hours Update
-          </h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <img class="modal-image" src="https://images.unsplash.com/photo-1510194638421-92f54ce46444?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2135&q=80">
-          <br>
-          We will be closed on <strong>Thursday</strong> (11/24) and <strong>Friday</strong> (11/25) for the Thanksgiving holiday.
-          We will reopen on Saturday (11/26).
-          <br>Happy Thanksgiving to you and yours!
-          
-        </div>
-      </div>
-    </div>
-  </div>
-
-
 
   <footer id="contact">
     <div class="container-fluid">
       <div class="row">
-
         <div class="offset-lg-3 col-lg-4 offset-md-2 col-md-5 offset-sm-1 col-sm-6">
           <div class="footer-heading">SHOP HOURS</div>
-
           <li id="dow1"><span>Monday</span> 8:30am - 6pm</li>
           <li id="dow2"><span>Tuesday</span> 8:30am - 6pm</li>
           <li id="dow3"><span>Wednesday</span> 8:30am - 6pm</li>
@@ -175,7 +149,6 @@
           <li id="dow0"><span>Sunday</span> Closed</li>
           <br>
         </div>
-
         <div class="col-lg-2 col-md-3 col-sm-4">
           <div class="footer-heading">SAY HELLO</div>
           <p>8459 West Main Street<br>Marshall, Virginia 20115</p>
@@ -192,10 +165,28 @@
 
       </div>
     </div>
-
     <div id="copyright"> Custom Bliss by Grace © <span id="year"></span> </div>
-
   </footer>
+
+
+  <!-- Modal -->
+  <div class="modal fade show" id="modal" data-bs-backdrop="static" tabindex="-1" aria-labelledby="modalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="modalLabel"></h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img class="modal-image" src="">
+          <br>
+          <p class="modal-text"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
   <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 
